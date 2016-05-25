@@ -10,12 +10,12 @@ import UIKit
 import AudioToolbox
 import AVFoundation
 
+
 class ViewController: UIViewController {
 
     
     @IBOutlet weak var textLabel: UILabel!
-    let session = AVCaptureSession()
-    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,6 +34,13 @@ class ViewController: UIViewController {
         
     }
 
+    @IBAction func captureWasPushed(sender: UIButton) {
+ 
+        
+    }
+    
+    
+    
     @IBAction func didSwipe(sender: UISwipeGestureRecognizer) {
         
         self.textLabel.text = nil
