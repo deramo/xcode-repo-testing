@@ -30,7 +30,7 @@ class ViewController: UIViewController {
 
     @IBAction func buttonWasPushed(sender: UIButton) {
         
-        self.textLabel.text = "it works"
+        self.textLabel.text = "Good work, \r you pressed the button"
         
     }
 
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
     
     @IBAction func didLongPress(sender: UILongPressGestureRecognizer) {
         
-        self.textLabel.text = "Hey! " + "let go of ime"
+        self.textLabel.text = "Hey! \r\n let go of me"
         AudioServicesPlayAlertSound(kSystemSoundID_Vibrate)
         
 
