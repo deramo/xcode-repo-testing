@@ -252,7 +252,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = testing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dominic.testing;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dominic.Dom-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -263,7 +263,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = testing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dominic.testing;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dominic.Dom-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
