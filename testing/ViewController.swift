@@ -28,26 +28,26 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func buttonWasPushed(sender: UIButton) {
+    @IBAction func buttonWasPushed(_ sender: UIButton) {
         
         self.textLabel.text = "Good work, \r you pressed the button"
         
     }
 
-    @IBAction func captureWasPushed(sender: UIButton) {
+    @IBAction func captureWasPushed(_ sender: UIButton) {
  
         
     }
     
     
     
-    @IBAction func didSwipe(sender: UISwipeGestureRecognizer) {
+    @IBAction func didSwipe(_ sender: UISwipeGestureRecognizer) {
         
         self.textLabel.text = nil
     
     }
     
-    @IBAction func didLongPress(sender: UILongPressGestureRecognizer) {
+    @IBAction func didLongPress(_ sender: UILongPressGestureRecognizer) {
         
         self.textLabel.text = "Hey! \r\n let go of me"
         AudioServicesPlayAlertSound(kSystemSoundID_Vibrate)
